@@ -1,7 +1,7 @@
 import {CommonLayout} from '../src/components/CommonLayout/CommonLayout';
 
 const Home: React.VFC = () => {
-  return <CommonLayout>yoshida</CommonLayout>;
+  return <CommonLayout></CommonLayout>;
 };
 
 export default Home;
