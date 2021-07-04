@@ -1,5 +1,5 @@
-import {CommonLayout} from '../src/components/CommonLayout';
-import {Button} from '../src/components/Button';
+import {CommonLayout} from '../components/CommonLayout';
+import {Button} from '../components/Button';
 
 const Home: React.VFC = () => {
   return (

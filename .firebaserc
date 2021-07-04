@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "ichijo-app"
+  },
+  "targets": {
+    "ichijo-app": {
+      "hosting": {
+        "production": [
+          "ichijo-app"
+        ],
+        "staging": [
+          "ichijo-dev"
+        ]
+      }
+    }
+  }
+}
