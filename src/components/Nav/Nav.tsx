@@ -1,5 +1,5 @@
 import {Heading, Box} from '@chakra-ui/react';
-import {Color, Space} from '../../../styles/variables';
+import {Color, Space} from '../../styles/variables';
 
 export const Nav: React.VFC = () => {
   return (
