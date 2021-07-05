@@ -1,5 +1,5 @@
 import {Story} from '@storybook/react/types-6-0';
-import {Button} from './';
+import {Button} from '.';
 
 const Template: Story = ({children, ...args}) => (
   <Button {...args}>{children}</Button>

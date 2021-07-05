@@ -2,25 +2,39 @@
   "hosting": [
     {
       "target": "production",
-      "public": "out",
+      "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {
-          "source": "**",
+          "source": "**/**",
           "destination": "/index.html"
         }
       ]
     },
     {
       "target": "staging",
-      "public": "out",
+      "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {
-          "source": "**",
-          "destination": "/index.html"
+          "source": "**/**",
+          "function": "nextServer"
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "source": ".",
+    "runtime": "nodejs14",
+    "ignore": [
+      "**/.vscode/**",
+      ".firebase/**",
+      ".firebaserc",
+      "firebase.json",
+      "**/node_modules/**",
+      "**/public/**",
+      "**/.next/cache/**"
+    ],
+    "predeploy": ["yarn build"]
+  }
 }
