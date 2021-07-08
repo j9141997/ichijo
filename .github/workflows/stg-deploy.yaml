@@ -6,8 +6,7 @@ on:
       - main
 
 env:
-  USERNAME: ${{secrets.BASIC_AUTH_USERNAME}}
-  PASSWORD: ${{secrets.BASIC_AUTH_PASSWORD}}
+  FIREBASE_TOKEN: ${{secrets.FIREBASE_TOKEN}}
 
 jobs:
   build:
@@ -34,8 +33,5 @@ jobs:
       - name: build
         run: yarn build
 
-      - name: set firebase configure
-        run: yarn firebase functions:config:set someservice.username=${{secrets.BASIC_AUTH_USERNAME}} someservice.password=${{secrets.BASIC_AUTH_PASSWORD}}
-
-      - name: deploy to staging
+      - name: deploy
         run: yarn deploy:staging --token=${{ secrets.FIREBASE_TOKEN }}

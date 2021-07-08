@@ -12,7 +12,7 @@
     "format:prettier": "prettier --config ./.prettierrc.js --write '**/*.+(ts|tsx|js|md|json)'",
     "storybook": "start-storybook -p 6006",
     "build:storybook": "build-storybook -o build/storybook",
-    "deploy:staging": "yarn firebase deploy --only functions:nextServer,hosting:staging",
+    "deploy:staging": "yarn firebase deploy --only hosting:staging",
     "deploy:production": "yarn firebase deploy --only hosting:production"
   },
   "browserslist": [
