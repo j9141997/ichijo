@@ -38,4 +38,4 @@ jobs:
         run: yarn firebase functions:config:set someservice.username=${{secrets.BASIC_AUTH_USERNAME}} someservice.password=${{secrets.BASIC_AUTH_PASSWORD}}
 
       - name: deploy to staging
-        run: yarn deploy:staging
+        run: yarn deploy:staging --token=${{ secrets.FIREBASE_TOKEN }}
