@@ -1,0 +1,9 @@
+{
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "labels": ["dependency"],
+  "unpublishSafe": true,
+  "schedule": ["every weekend"],
+  "semanticCommits": true,
+  "semanticCommitType": "update"
+}
