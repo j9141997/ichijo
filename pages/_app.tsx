@@ -1,12 +1,12 @@
 import '../styles/globals.css';
 import type {AppProps} from 'next/app';
-import {ChakraProvider} from '@chakra-ui/react';
+import {BaseLayout} from '../components/common/BaseLayout';
 
 function MyApp({Component, pageProps}: AppProps) {
   return (
-    <ChakraProvider>
+    <BaseLayout>
       <Component {...pageProps} />
-    </ChakraProvider>
+    </BaseLayout>
   );
 }
 export default MyApp;
