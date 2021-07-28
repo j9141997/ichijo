@@ -1,12 +1,7 @@
-import {CommonLayout} from '../components/CommonLayout';
-import {Button} from '../components/Button';
+import {Button} from '../components/common/Button';
 
 const Home: React.VFC = () => {
-  return (
-    <CommonLayout>
-      <Button>yoshida</Button>
-    </CommonLayout>
-  );
+  return <Button>yoshida</Button>;
 };
 
 export default Home;
