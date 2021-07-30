@@ -1,4 +1,4 @@
-export const Space = 6;
+export const Space = 8;
 
 export const Color = {
   BORDER: {

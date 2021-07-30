@@ -1,5 +1,5 @@
 import {Footer} from '../Footer';
-import {Nav} from '../Nav';
+import {NavBar} from '../NavBar';
 
 export interface Props {
   children: React.ReactNode;
@@ -8,7 +8,7 @@ export interface Props {
 export const BaseLayout: React.VFC<Props> = ({children}) => {
   return (
     <>
-      <Nav />
+      <NavBar />
       <main>{children}</main>
       <Footer />
     </>
