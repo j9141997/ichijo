@@ -1822,7 +1822,7 @@
     webpack-hot-middleware "^2.25.0"
     webpack-virtual-modules "^0.2.2"
 
-"@storybook/builder-webpack5@^6.3.0":
+"@storybook/builder-webpack5@6.3.0":
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-6.3.0.tgz#6383acbd08d8c486ad51f70387bee41900c194ca"
   integrity sha512-cEP/8UaGnE1tzobk3oZGaF1HySlmLq3zZgVRVwTYO8IMCM/OT/XHbWkeDnPCisj50KN0XL0a00ZRTSl2J4gszg==
@@ -2169,7 +2169,7 @@
     webpack-dev-middleware "^3.7.3"
     webpack-virtual-modules "^0.2.2"
 
-"@storybook/manager-webpack5@^6.3.0":
+"@storybook/manager-webpack5@6.3.0":
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@storybook/manager-webpack5/-/manager-webpack5-6.3.0.tgz#9f6e050fa0ee2af48a5604ec447bb12ecf4a4996"
   integrity sha512-yNpMJt78VNg6bfZan5kIHrrh53TpYgxRXCHTMWcz1Qe6My47TJpB94yY5A9jNJtEBRMwPD1XflBJblbl3b1WEg==
@@ -2234,7 +2234,7 @@
     react-docgen-typescript "^2.0.0"
     tslib "^2.0.0"
 
-"@storybook/react@^6.3.0":
+"@storybook/react@6.3.0":
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.3.0.tgz#e86ef1976fba2f0f80925278f196fb709df55eb4"
   integrity sha512-GxK88Si9WQa16uUsUBhe6kRhSEZUrR/1ljP6QvLY+C5MyYJZ89DZPAbWnVo47SJCXhAlvJW83nSTSxnobn8RWA==
