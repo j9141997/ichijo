@@ -2606,16 +2606,7 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
-"@types/express@4.17.3":
-  version "4.17.3"
-  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.3.tgz#38e4458ce2067873b09a73908df488870c303bd9"
-  integrity sha512-I8cGRJj3pyOLs/HndoP+25vOqhqWkAZsWMEmq1qXy/b/M3ppufecUwaK2/TVDVxcV61/iSdhykUjQQ2DLSrTdg==
-  dependencies:
-    "@types/body-parser" "*"
-    "@types/express-serve-static-core" "*"
-    "@types/serve-static" "*"
-
-"@types/express@^4.17.13":
+"@types/express@4.17.13":
   version "4.17.13"
   resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.13.tgz#a76e2995728999bab51a33fabce1d705a3709034"
   integrity sha512-6bSZTPaTIACxn48l50SR+axgrqm6qXFIxrdAKaG6PaJk3+zuUr35hBlgT7vOmJcum+OEaIBLtHV/qloEAFITeA==
@@ -2623,6 +2614,15 @@
     "@types/body-parser" "*"
     "@types/express-serve-static-core" "^4.17.18"
     "@types/qs" "*"
+    "@types/serve-static" "*"
+
+"@types/express@4.17.3":
+  version "4.17.3"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.3.tgz#38e4458ce2067873b09a73908df488870c303bd9"
+  integrity sha512-I8cGRJj3pyOLs/HndoP+25vOqhqWkAZsWMEmq1qXy/b/M3ppufecUwaK2/TVDVxcV61/iSdhykUjQQ2DLSrTdg==
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
 "@types/glob-base@^0.3.0":
@@ -4077,7 +4077,7 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-basic-auth-connect@^1.0.0:
+basic-auth-connect@1.0.0, basic-auth-connect@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/basic-auth-connect/-/basic-auth-connect-1.0.0.tgz#fdb0b43962ca7b40456a7c2bb48fe173da2d2122"
   integrity sha1-/bC0OWLKe0BFanwrtI/hc9otISI=
@@ -6332,7 +6332,7 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-prettier@^3.1.4, eslint-plugin-prettier@^3.4.0:
+eslint-plugin-prettier@3.4.0, eslint-plugin-prettier@^3.1.4:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.0.tgz#cdbad3bf1dbd2b177e9825737fe63b476a08f0c7"
   integrity sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==
@@ -6609,7 +6609,7 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-express@^4.16.4, express@^4.17.1:
+express@4.17.1, express@^4.16.4, express@^4.17.1:
   version "4.17.1"
   resolved "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz#4491fc38605cf51f8629d39c2b5d026f98a4c134"
   integrity sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
@@ -6975,7 +6975,7 @@ firebase-admin@9.11.0:
     "@google-cloud/firestore" "^4.5.0"
     "@google-cloud/storage" "^5.3.0"
 
-firebase-functions@^3.14.1:
+firebase-functions@3.14.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/firebase-functions/-/firebase-functions-3.14.1.tgz#3ac5bc70989365874f41d06bca3b42a233dd6039"
   integrity sha512-hL/qm+i5i1qKYmAFMlQ4mwRngDkP+3YT3F4E4Nd5Hj2QKeawBdZiMGgEt6zqTx08Zq04vHiSnSM0z75UJRSg6Q==
@@ -7720,7 +7720,7 @@ gtoken@^5.0.4:
     google-p12-pem "^3.0.3"
     jws "^4.0.0"
 
-gts@^3.1.0:
+gts@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/gts/-/gts-3.1.0.tgz#b27ce914191ed6ad34781968d0c77e0ed3042388"
   integrity sha512-Pbj3ob1VR1IRlEVEBNtKoQ1wHOa8cZz62KEojK8Fn/qeS2ClWI4gLNfhek3lD68aZSmUEg8TFb6AHXIwUMgyqQ==
@@ -10265,7 +10265,7 @@ netmask@^2.0.1:
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-2.0.2.tgz#8b01a07644065d536383835823bc52004ebac5e7"
   integrity sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg==
 
-next-routes@^1.4.2:
+next-routes@1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/next-routes/-/next-routes-1.4.2.tgz#736a382579a792ea69f35ae70b449acdfefa7944"
   integrity sha512-1Ljs0BEV9IGcJLKxC/WZUtmftSvmkY6DlI8fVs8dClCoR82QRzBGRka/L/XB76wE5814MMeP9qVJYQil0FE9QQ==
