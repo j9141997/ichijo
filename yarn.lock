@@ -7720,10 +7720,10 @@ gtoken@^5.0.4:
     google-p12-pem "^3.0.3"
     jws "^4.0.0"
 
-gts@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/gts/-/gts-3.1.0.tgz#b27ce914191ed6ad34781968d0c77e0ed3042388"
-  integrity sha512-Pbj3ob1VR1IRlEVEBNtKoQ1wHOa8cZz62KEojK8Fn/qeS2ClWI4gLNfhek3lD68aZSmUEg8TFb6AHXIwUMgyqQ==
+gts@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/gts/-/gts-3.1.1.tgz#c7347cf8f8ea32577909659b22bf698ac5ca8082"
+  integrity sha512-Jw44aBbzMnd1vtZs7tZt3LMstKQukCBg7N4CKVGzviIQ45Cz5b9lxDJGXVKj/9ySuGv6TYEeijZJGbiiVcM27w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.2.0"
     "@typescript-eslint/parser" "^4.2.0"
@@ -7739,7 +7739,6 @@ gts@3.1.0:
     ncp "^2.0.0"
     prettier "^2.1.2"
     rimraf "^3.0.2"
-    update-notifier "^5.0.0"
     write-file-atomic "^3.0.3"
 
 gud@^1.0.0:
@@ -14210,7 +14209,7 @@ update-notifier@^4.1.1:
     semver-diff "^3.1.1"
     xdg-basedir "^4.0.0"
 
-update-notifier@^5.0.0, update-notifier@^5.1.0:
+update-notifier@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/update-notifier/-/update-notifier-5.1.0.tgz#4ab0d7c7f36a231dd7316cf7729313f0214d9ad9"
   integrity sha512-ItnICHbeMh9GqUy31hFPrD1kcuZ3rpxDZbf4KUDavXwS0bW5m7SLbDQpGX3UYr072cbrF5hFUs3r5tUsPwjfHw==
