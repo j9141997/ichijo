@@ -25,7 +25,7 @@
   "dependencies": {
     "@emotion/react": "11.4.0",
     "@storybook/react": "6.3.0",
-    "basic-auth-connect": "1.0.0",
+    "basic-auth-connect": "1.1.0",
     "express": "4.17.1",
     "firebase-admin": "9.11.0",
     "firebase-functions": "3.14.1",
